@@ -31,6 +31,12 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'django.shortcuts',
+    'csv',
+    'io',
+    'django.contrib',
+    'rest_framework.generics',
+    'django.contrib.auth.decorators',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -39,7 +45,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'corsheaders',
     'rest_framework',
-    'articles'
+    'articles',
+    
 ]
 
 MIDDLEWARE = [

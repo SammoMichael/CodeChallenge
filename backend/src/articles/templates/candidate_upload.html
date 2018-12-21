@@ -1,0 +1,16 @@
+{% comment %} (% if messages %)
+    (% for messages in messages %)
+    <div>
+        <strong>{{message|safe}}</strong>
+    </div>
+    {% endfor %}
+(% else %) {% endcomment %}
+    {% comment %} {{order}} {% endcomment %}
+    <form method="post" entype="multipart/form-data">
+    {% csrf_token %}
+    <label>Upload a file</label>
+    <input type='file' id='file' name='file'>
+    <p>only accepts CSV file types</p>
+    <button type="submit" id='submit' name="submit">Upload</button>
+    </form>
+{% comment %} (% endif %) {% endcomment %}
