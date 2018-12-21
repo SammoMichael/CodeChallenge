@@ -1,7 +1,7 @@
 # CodeChallenge-Instructions
  
  ##  A simple fullstack app in Django and React
- ### with a Django view for loading CSV files to SQLite3 and React components for data analysis
+ ### Django views for loading CSV files to SQLite3 and React components for data analysis
  * Clone, download and create two terminal shells in root directory
  * in backend/src run 'python manage.py runserver' and check out localhost:8000
  * in frontend/src simply type 'npm start'
