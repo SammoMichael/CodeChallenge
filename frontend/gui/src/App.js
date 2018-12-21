@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+// import './App.css';
 import 'antd/dist/antd.css'; 
 
 import Article from './components/Article';
