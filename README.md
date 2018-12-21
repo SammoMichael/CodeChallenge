@@ -1,6 +1,6 @@
 # CodeChallenge
  
- ##A fullstack app in Django and React with a view for the admin to load CSV files directly into the SQLite3 database. 
+ ##  A fullstack app in Django and React with view for loading CSV files directly into the SQLite3 database. 
   
 ### Technologies 
  * Django backend 
