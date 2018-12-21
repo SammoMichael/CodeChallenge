@@ -1,6 +1,9 @@
 # CodeChallenge
  
  ##  A fullstack app in Django and React with a view for loading CSV files directly into the SQLite3 database. 
+ * Clone, download and create two terminals in root directory
+ * in backend/src and run 'python manage.py runserver' and check out http://localhost:8000
+ * in frontend/src simply type npm start and a browser tab should auto-load to http://localhost:3000 with the React index from screenshot 
   
 ### Technologies 
  * Django backend 
