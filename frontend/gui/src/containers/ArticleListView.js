@@ -20,7 +20,7 @@ class ArticleList extends React.Component {
     }
 
     componentDidMount() {
-        axios.get('https://github.com/SammoMichael/CodeChallenge/blob/master/backend/src/articles/score-records%20(1).csv').then(res => {
+        axios.get('http://localhost:8000/api/').then(res => {
             this.setState({
                 articles: res.data
             });
