@@ -1,4 +1,4 @@
-# CodeChallenge-Instructions
+# Django-React Template
  
  ##  A simple fullstack app in Django and React
  ### Django views for loading CSV files to SQLite3 and React components for data analysis
